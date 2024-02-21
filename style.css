@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Kanit&family=Lato:wght@700&family=Merriweather&family=Mooli&family=Nunito+Sans:opsz,wght@6..12,500&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:  rgb(25, 47, 116);
+  
+}
+.container h1{
+    font-size: 35px;
+    border: 2px solid white;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-image: url(./assets/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.container p{
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-image: url(./assets/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.box{
+    width: 700px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./assets/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+  
+.box span{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.box span img{
+    width: 100px;
+}
+
+.box h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+.box button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(5, 26, 68);
+    margin-top: 3rem;
+    color: white;
+}
+.box button:hover{
+    background-color: black;
+    cursor: pointer;
+
+}
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .container h1{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .box{
+        width: 90%;
+        height: 445px;
+    
+    }
+}
